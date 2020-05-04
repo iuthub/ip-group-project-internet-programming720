@@ -12,7 +12,14 @@
 		background-color: #00C3C0;
 	}
 	#hbutton{
-		font-size: 58px;
+	padding: 10px;
+	padding-right: 35px;
+	padding-left: 35px;
+	border: solid;
+	border-color: #00EBE7;
+	font-family: Alef;
+	font-size: 8px;
+
 	}
 }/*
 body{
