@@ -1,0 +1,100 @@
+body{
+	margin: 10px;
+	background-color: #00C3FF;
+}
+#hbutton{
+	padding: 10px;
+	padding-right: 85px;
+	padding-left: 85px;
+	margin: 2px;
+	border: solid;
+	border-color: #00EBE7;
+	font-family: Alef;
+	font-size: 38px;
+
+}
+#aha{
+	font-size: 70px;
+	font-family: Alegreya Sans SC;
+	text-align: center;
+	color: white;
+
+}
+
+
+#dg{
+
+
+margin: 5%;
+}
+#a{
+
+    padding-bottom: 10px;
+	
+	margin-top: 10%;
+	background-color: white;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-right: 40px;
+	padding-left: 40px;
+	border:solid;
+	border-color: #00AAAA;
+
+}
+p{
+	font-family: Alef;
+	font-size: 20px;
+}
+#abt{
+	font-weight: bold;
+}
+
+
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.name {
+  padding: 15px;
+  text-align: center;
+  font-family: Alef;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
