@@ -1,0 +1,22 @@
+body{
+	background-color: #00AAFF;
+}
+img{
+	padding-top: 0px;
+}
+p{
+	font-family: Alegreya Sans SC;
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+}
+#hbutton{
+	padding: 10px;
+	padding-right: 45px;
+	padding-left: 45px;
+	border: solid;
+	border-color: #00EBE7;
+	font-family: Alef;
+	font-size: 38px;
+
+	}
