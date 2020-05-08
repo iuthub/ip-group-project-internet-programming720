@@ -1,0 +1,133 @@
+<html>
+<head>
+<title>registration for dormitory </title>
+<link rel="stylesheet" type="text/css" href="stylesr.css">
+</head>
+ 
+<body>
+
+<h3 align="center">REGISTRATION FOR DORMITORY </h3>
+
+<form action="connect.php" method="POST">
+<table align="center" cellpadding = "10">
+ 
+<tr>
+<td>FIRST NAME</td>
+<td>
+	<input type="text" id="First_Name" name="First_Name" maxlength="30"/>
+</td>
+</tr>
+ 
+<tr>
+<td>LAST NAME</td>
+<td><input type="text" id="Last_Name" name="Last_Name" maxlength="30"/></td>
+</tr>
+
+<tr>
+ <td>BIRTHDAY</td>
+  <td>
+  	<input type="date" id="birthday" name="birthday" />
+  </td>
+</tr>
+ 
+<tr>
+<td>EMAIL </td>
+<td><input type="text" id="Email" name="Email" maxlength="40" /></td>
+</tr>
+
+<tr>
+	<td> STUDENT ID NUMBER</td>
+	<td><input type="text" id="STUDENT_ID_NUMBER" name="STUDENT_ID_NUMBER" maxlength="8"></td>
+</tr>
+<tr>
+	<td>PASSPORT ID NUMBER</td>
+	<td><input type="text" id="PASSPORT_ID_NUMBER" name="PASSPORT_ID_NUMBER" maxlength="10"></td>
+</tr>
+<tr>
+<td>WICH COURSE</td>
+
+<td>
+Freshmen <input type="radio" name="Course" value="fresh" />
+Sophomore <input type="radio" name="Course" value="soph" />
+Junior <input type="radio" name="Course" value="jun" />
+Senior<input type="radio" name="Course" value="sen" />
+
+</td>
+</tr>
+<tr>
+<td>MOBILE NUMBER</td>
+<td>
+<input type="text" id="Mobile_Number"  name="Mobile_Number" maxlength="12" />
+</td>
+</tr>
+ 
+<tr>
+<td>GENDER</td>
+<td>
+Male <input type="radio"  id="gender" name="gender" value="m" />
+Female <input type="radio" id="gender" name="gender" value="f" />
+</td>
+</tr>
+ 
+
+<tr>
+<td>ADDRESS <br /><br /><br /></td>
+<td><textarea id="Address" name="Address" rows="4" cols="30"></textarea></td>
+</tr>
+ 
+<tr>
+<td>CITY</td>
+<td><input type="text" id="City" name="City" maxlength="30" />
+</td>
+</tr>
+ 
+<tr>
+<td>PIN CODE</td>
+<td><input type="text" id="Pin_Code" name="Pin_Code" maxlength="6" />
+</td>
+</tr>
+ 
+
+<tr>
+<td>STATE</td>
+<td><input type="text" id="State" name="State" maxlength="30" />
+
+</td>
+</tr>
+ 
+
+<tr>
+<td>COUNTRY</td>
+<td><input type="text" id="Country"  name="Country" value="Uzbekistan" readonly="readonly"  maxlength="12" /></td>
+</tr>
+ 
+
+
+<tr>
+	<td>WHICH ROOM DO YOU WANT TO LIVE </td>
+	<td>
+	RoomN1A<input type="radio" name="Room" value="RN1A"/>
+	RoomN1B<input type="radio" name="Room" value="RN1B"/>
+	RoomN2A<input type="radio" name="Room" value="RN2A"/>
+	RoomN2B<input type="radio" name="Room" value="RN2B"/>
+	RoomN3A<input type="radio" name="Room" value="RN3A"/>
+	RoomN3B<input type="radio" name="Room" value="RN3B"/>
+	RoomN4A<input type="radio" name="Room" value="RN4A"/>
+	RoomN4B<input type="radio" name="Room" value="RN4B"/>
+	RoomN5A<input type="radio" name="Room" value="RN5A"/>
+	RoomN5B<input type="radio" name="Room" value="RN5B"/>
+	</td>
+</tr>
+ 
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+</table>
+ 
+</form>
+ 
+</body>
+</html>
