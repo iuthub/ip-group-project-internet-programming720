@@ -1,6 +1,15 @@
 body{
   background-image: url("third.jpg");
 }
+h2 a{
+  padding: 10px
+  border: solid;
+  border-color: #00EBE7;
+  font-family: Alef;
+  font-size: 38px;
+  color: white;
+
+}
 h3{
   font-family: Calibri; 
   font-size: 25pt;         
